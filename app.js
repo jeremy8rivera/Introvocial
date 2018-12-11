@@ -11,6 +11,10 @@ app.use(express.static(__dirname + '/public'));
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 
+
+app.set( 'port', ( process.env.PORT || 5000 ));
+
+
 userArray = [];
 userID = '';
 
@@ -105,8 +109,3 @@ app.post('/*', function(req, res){
 	}
 	console.log('done');
 })
-
-
-http.listen(3000, function(){
-	console.log('listening on *:3000');
-});
