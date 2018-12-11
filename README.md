@@ -12,4 +12,3 @@ packages used:
 shout out to google for an easy javasript graph library.
 
 To run it locally use node app.js and proceed to localhost://3000.
-Running on Heroku: https://introvocial.herokuapp.com/
