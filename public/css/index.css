@@ -1,0 +1,68 @@
+h1, h2{
+	text-align: center;
+}
+
+h3{
+	font-size: 32px;
+	text-decoration: underline;
+}
+
+form{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+input[type=text], input[type=password]{
+	border: 0px;
+	border-bottom: 1px solid black;
+	height: 20px;
+	margin-bottom: 20px;
+}
+
+input[type=text]:focus, input[type=password]:focus{
+	outline: none;
+}
+
+input[type=submit] {
+	background: #339bb7;
+	border: 1px solid black;
+	border-radius: 6px;
+	font-weight: 600;
+	font-size: 30px;
+	color: white;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #337ab7;
+}
+
+.content{
+	width: 45%;
+	display: inline-block;
+}
+
+.infoError{
+	font-size: 14px;
+	color: red;
+	font-style: italic;
+	font-weight: 200;
+}
+
+#accountInteraction{
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	border: 1px solid black;
+	box-shadow: 2px 2px 5px;
+}
+
+#verticalBlock{
+	display: inline-block;
+	background-color: black;
+	border-radius: 10px;
+	width: 2px;
+	margin: auto;
+	height: 140px;
+}

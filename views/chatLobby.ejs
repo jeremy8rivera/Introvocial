@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chat | Introvocial</title>
+	<link rel="stylesheet" type="text/css" href="/css/chatLobby.css">
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script src="/jquery/chatLobby.js"></script>
+</head>
+<body>
+	<nav>
+		<a href="/">Logout</a>
+	</nav>
+	<div id='graphsHolder'>
+		<h1>Poll Stats!</h1>
+		<h3>refreshes every 15 seconds</h3>
+		<div class='graphContainer' id='chart_div1'></div>
+		<div class='graphContainer' id='chart_div2'></div>
+		<div class='graphContainer' id='chart_div3'></div>
+		<div class='graphContainer' id='chart_div4'></div>
+	</div>
+	<div id='polling'>
+		<h2>Answer the Questions By Typing '!' followed immediately by poll # and the response</h2>
+		<h3>For example '!1 basketball'</h3>
+	</div>
+	<div id='chatControl'>
+		<ul id="messages"><li><%=name%></li></ul>
+	</div>
+	<div id='submitChatMessages'>
+		<form action="">
+			<input id="m" autocomplete="off" placeholder="Enter Message Here..." /><button>Send</button>
+		</form>
+	</div>
+</body>
+</html>

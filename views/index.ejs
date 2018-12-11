@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <title>Account Access | Introvocial</title>
+  <!--static files-->
+  <link rel="stylesheet" type="text/css" href="/css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/jquery/index.js"></script>  
+</head>
+<body>
+  <h1>Welcome to InvoSocial.</h1>
+  <h2>Please Sign In or Sign Up to continue to the app.</h2>
+  <section id="accountInteraction">
+    <div class="content">
+      <form autocomplete='off' action='/' method='post' id="createAccountForm">
+        <h3>Create An Account</h3>
+        <p class='infoError'></p>
+        <section>
+        Username: <input type="text" name="user" placeholder="Enter Username" required>
+      </section>
+      <section>
+        Password: <input type="password" name="password" placeholder="Enter Password" required>
+      </section>
+      <input type="submit" name='accountAccess' value="Sign Up">
+      </form>
+    </div>
+    <div id="verticalBlock"></div>
+    <div class="content">
+      <form autocomplete="off" action='/' method='post' id="accessAccountForm">
+        <h3>Sign Into an Account </h3>
+        <p class='infoError'></p>
+        <section>
+        Username: <input type="text" name="user" placeholder="Enter Username" required>
+      </section>
+      <section>
+        Password: <input type="password" name="password" placeholder="Enter Password" required>
+      </section>
+      <input type="submit" name='accountAccess' value="Sign In">
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>

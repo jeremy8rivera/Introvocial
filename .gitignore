@@ -1,0 +1,5 @@
+bannedWords.js
+config.js
+package-lock.json
+serviceAccountKey.json
+node_modules/
