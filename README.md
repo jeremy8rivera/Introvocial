@@ -5,9 +5,10 @@ The code is set for scaleability. With only a few minor tweaks to make it fully 
 
 packages used:
 - express
-- ejs (not really. Eventually got rid of it)
+- ejs (didn't fully utilize it, but kept it in)
 - socket.io
 - firebase-admin
+- body-parser
 
 shout out to google for an easy javasript graph library.
 
