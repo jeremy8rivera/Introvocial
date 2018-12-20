@@ -3,12 +3,22 @@
 
 The code is set for scaleability. With only a few minor tweaks to make it fully scaleable with 0 need to change the code when adding more polls. (Check chatLobby.js & chatlobby.ejs for the minor fix).
 
-packages used:
+### packages used:
 - express
 - ejs (didn't fully utilize it, but kept it in)
 - socket.io
 - firebase-admin
 - body-parser
+
+### Database setup:
+- questions
+  - Q number 1?
+    - Answer: # answered
+    - ...
+  - ...
+- users
+  - username: password
+  - ...
 
 shout out to google for an easy javasript graph library.
 
